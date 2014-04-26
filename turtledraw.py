@@ -1,10 +1,13 @@
 # author: Nathangabc
 import turtle
 t= turtle.Turtle()
-length = 300
-angle = 36
-numbers = [ 1, 2, 3, 4, 5, 6, 7, 8 , 9 , 10 ]
+length = 100
+angle = 361
+numbers = range(10, 100)
+#colors = ["yellow", "blue", "green", "red", "magenta", "orange" ]
 for number in numbers:
+	#t.color(color)
 	t.forward(length)
 	t.left(angle)
+	
 	
