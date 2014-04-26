@@ -1,11 +1,10 @@
 # author: Nathangabc
 import turtle
 t= turtle.Turtle()
-length = 1
-angle = 1
-numbers = [ 1, 2, 3, 4, 5 ]
-count = 0
-while count < 360:
+length = 300
+angle = 36
+numbers = [ 1, 2, 3, 4, 5, 6, 7, 8 , 9 , 10 ]
+for number in numbers:
 	t.forward(length)
 	t.left(angle)
-	count = count + 1
+	
